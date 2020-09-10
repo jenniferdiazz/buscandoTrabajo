@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.descripcion_label{
+  grid-column: 1/4;
+  grid-row: 3/4;
+  text-align: center;
+}
+.descripcion{
+  grid-column: 1/4;
+  grid-row: 4/5;
+  text-align: center;
+
+}
+.container_grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border:2px solid black;
+}
+.location_label{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.company_label{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.type_label{
+  grid-column: 3/4;
+  grid-row:1/2;
+}
+.location{
+  grid-column: 1/2;
+  grid-row:2/3
+}
+.company{
+  grid-column: 2/3;
+  grid-row:2/3;
+}
+.type{
+  grid-column:3/4;
+  grid-row: 2/3
+}
+body{font-family: sans-serif; }
+
+.todo-new{
+    background-color: darkgray;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+}
